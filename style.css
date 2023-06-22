@@ -10,8 +10,8 @@ body {
 }
 
 .calculadora-corpo {
-    width: 400px;
-    height: 550px;
+    width: 320px;
+    height: 500px;
     background-color: black;
     margin-top: 5%;
     color: whitesmoke;
@@ -23,8 +23,8 @@ body {
     display: flex;
     justify-content: right;
     align-items: center;
-    width: 380px;
-    height: 70px;
+    width: 300px;
+    height: 45px;
     font-size: 30px;
     overflow: hidden;
     margin-top: 15px;
@@ -68,5 +68,5 @@ body {
 }
 
 #zero {
-    width: 140px;
+    width: 120px;
 }
