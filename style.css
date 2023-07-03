@@ -16,7 +16,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 95vh;
+    height: 85vh;
 }
 
 .calculadora-corpo {
@@ -38,7 +38,6 @@ a:hover {
     font-size: 30px;
     overflow: hidden;
     margin-top: 15px;
-
 }
 
 .linhas {
@@ -83,7 +82,6 @@ a:hover {
 
 footer {
     width: 100%;
-    padding: 16px;
     position: fixed;
     bottom: 0;
     text-align: center;

@@ -1,5 +1,4 @@
 let historico = [];
-// let historico;
 const regexSinais = new RegExp(/[\+\-\*\/]$/);
 
 const display = document.getElementById('display');
@@ -39,6 +38,7 @@ document.addEventListener("keydown", (pressed) => {
         case '*':
         case '-':
         case '+':
+        case '.':
             if (display.textContent == 0) {
                 display.textContent = 0;
                 historico = display.textContent;
@@ -110,7 +110,8 @@ document.addEventListener("click", (cliked) => {
         case '*':
         case '*':
         case '-':
-        case '+':            
+        case '+':
+        case '.':         
             if (display.textContent == 0) {
                 display.textContent = 0;
                 historico = display.textContent;
